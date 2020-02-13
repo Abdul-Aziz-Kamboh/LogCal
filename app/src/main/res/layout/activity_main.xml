@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF6600"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:orientation="vertical">
+   <Button
+       android:id="@+id/logcal"
+       android:layout_margin="30dp"
+       android:layout_marginLeft="50dp"
+       android:layout_width="300dp"
+       android:text="Logrithmic Calculator"
+       android:textSize="20dp"
+       android:background="@drawable/roundedbutton"
+       android:onClick="logcal"
+       android:layout_height="wrap_content"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:text="Logrithmic Book"
+       android:gravity="center"
+       android:textSize="30dp"
+       android:background="#F8F3F3"
+       android:layout_height="wrap_content"
+      />
+
+   <Button
+       android:id="@+id/logrithm"
+       android:onClick="logarithm"
+
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logarithms"
+       android:textAlignment="textStart"
+       />
+   <Button
+       android:id="@+id/lawoflog"
+       android:onClick="lawoflog"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:text=" Laws of Logarithms"
+       android:textAlignment="textStart"
+       />
+   <Button
+       android:id="@+id/commonlog"
+       android:onClick="commonlog"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Common Logarithms"
+       android:textAlignment="textStart"
+       />
+   <Button
+       android:id="@+id/characterandMantisa"
+       android:onClick="characterandMantisa"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Characteristic and Mantisa"
+       android:textAlignment="textStart"
+       />
+   <Button
+       android:id="@+id/logTable"
+       android:onClick="logTable"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logarithmic Table"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/findmantisa"
+       android:onClick="findmantisa"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" How to find Mantissa"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/antilog"
+       android:onClick="antilog"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Antilogarithms"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/log1025"
+       android:onClick="log1025"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logs from 10 to 24"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/log2654"
+       android:onClick="log2654"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logs from 25 to 54"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/log5574"
+       android:onClick="log5574"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logs from 55 to 74"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/log7599"
+       android:onClick="log7599"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Logs from 75 to 99"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/anti049"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:onClick="anti049"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Antilogs from 0 to 49"
+       android:textAlignment="textStart"
+       />
+   <Button
+       android:id="@+id/anti5099"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:onClick="anti5099"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" Antilogs from 50 to 99"
+       android:textAlignment="textStart"
+       />
+
+   <Button
+       android:id="@+id/uselogTable"
+       android:layout_width="match_parent"
+       android:layout_margin="10dp"
+       android:onClick="uselogTable"
+       android:background="@drawable/roundedbutton"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:text=" How to use Logrithmic Table"
+       android:textAlignment="textStart"
+       />
+</LinearLayout>
+   </ScrollView>
+   <com.google.android.gms.ads.doubleclick.PublisherAdView
+       xmlns:ads="http://schemas.android.com/apk/res-auto"
+       android:id="@+id/publisherAdView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+       ads:adSize="BANNER"
+       ads:adUnitId="ca-app-pub-7918255785248879/2587922479">
+   </com.google.android.gms.ads.doubleclick.PublisherAdView>
+
+
+</LinearLayout>
